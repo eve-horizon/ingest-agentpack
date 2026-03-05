@@ -1,0 +1,12 @@
+version: 1
+agents:
+  doc_processor:
+    slug: doc-processor
+    skill: doc-processor
+    harness_profile: ingest
+    description: "Processes ingested documents: text, audio, video. Extracts content, transcribes media, writes structured summaries."
+    policies:
+      permission_policy: auto_edit
+      git:
+        commit: none
+        push: never

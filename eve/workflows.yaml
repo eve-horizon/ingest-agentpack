@@ -1,0 +1,8 @@
+workflows:
+  process-document:
+    trigger:
+      system:
+        event: doc.ingest
+    steps:
+      - agent:
+          prompt: "Process the ingested document using your doc-processor skill."

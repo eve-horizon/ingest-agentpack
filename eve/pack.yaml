@@ -1,0 +1,6 @@
+version: 1
+id: doc-ingest
+imports:
+  agents: eve/agents.yaml
+  workflows: eve/workflows.yaml
+  x_eve: eve/x-eve.yaml
