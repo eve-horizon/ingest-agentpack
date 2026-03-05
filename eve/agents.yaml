@@ -8,5 +8,5 @@ agents:
     policies:
       permission_policy: auto_edit
       git:
-        commit: none
+        commit: never
         push: never
