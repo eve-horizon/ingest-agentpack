@@ -5,4 +5,5 @@ workflows:
         event: doc.ingest
     steps:
       - agent:
+          name: doc_processor
           prompt: "Process the ingested document using your doc-processor skill."
