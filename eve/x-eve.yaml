@@ -2,10 +2,10 @@ agents:
   profiles:
     ingest:
       - harness: mclaude
-        model: opus-4.6
+        model: sonnet
         reasoning_effort: medium
 
     ingest-fast:
       - harness: mclaude
-        model: sonnet-4.6
+        model: sonnet
         reasoning_effort: low
